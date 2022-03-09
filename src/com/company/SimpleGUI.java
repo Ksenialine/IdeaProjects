@@ -37,7 +37,6 @@ public class SimpleGUI extends JFrame {
     class ButtonEventListener implements ActionListener {
         public void actionPerformed (ActionEvent e) {
             String message = "";
-            message += "Vladik vrednia popa\n";
             message += "Text is " + input.getText() + "\n";
             message += (radio1.isSelected() ? "Radio #1" : "Radio #2") + " is selected!\n";
             message += "Checkbox is " + ((check.isSelected()) ? "checked" : "unchecked");
